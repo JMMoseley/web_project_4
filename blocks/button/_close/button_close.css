@@ -10,20 +10,13 @@
     margin-top: -50px;
     margin-left: 205px;
 }
-/*
-@media screen and (max-width: 1024px) {
-    .button_close {
-        margin-top: -50px;
-        margin-left: 205px;    
-    }
-}*/
 
 @media screen and (max-width: 768px) {
     .button_close {
         height: 48px;
         width: 48px;
-       /* margin-top: -50px;
-        margin-left: 205px;    */
+        margin-top: -40px;
+        margin-left: 190px;
     }
 }
 

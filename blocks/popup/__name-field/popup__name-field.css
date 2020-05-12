@@ -8,6 +8,14 @@
     padding-bottom: 13px;
 }
 
+@media screen and (max-width: 768px) {
+    .popup__name-field {
+        max-width: 350px;
+        margin: 54px 0 0 24px;
+        padding-bottom: 10px;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .popup__name-field {
         width: 190px;

@@ -11,8 +11,16 @@
   left: 40px;
   right: 40px;
   margin: auto;
-  border: 1px solid red;
 }
+
+@media screen and (max-width: 768px) {
+    .popup__container {
+      width: 395px;
+      height: 330px;
+      top: 155px;
+    }
+  }
+
 
 @media screen and (max-width: 425px) {
   .popup__container {
