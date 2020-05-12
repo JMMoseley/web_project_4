@@ -1,0 +1,42 @@
+.button_close{
+    background-image: url('../../../images/close-icon.svg');
+    position: fixed;
+    border: none;
+    background-color: transparent;
+    background-size: contain;
+    width: 58px;
+    height: 58px;
+    left: 50%;    
+    top: 25%;
+    margin-top: -270px;
+    margin-left: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+    .button_close {
+        height: 58px;
+        width: 58px;
+        margin-top: -265px;
+        margin-left: 205px;    
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button_close {
+        height: 48px;
+        width: 48px;
+        margin-top: -262px;
+        margin-left: 185px;    
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .button_close {
+        height: 42px;
+        width: 42px;
+        left: 0;    
+        top: 0;
+        margin-top: 120px;
+        margin-left: 272px;   
+    }
+  }

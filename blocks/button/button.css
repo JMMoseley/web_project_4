@@ -1,0 +1,12 @@
+@import url(./_close/button_close.css);
+@import url(./_submit/button_submit.css);
+@import url(./_add/button_add.css);
+@import url(./_edit/button_edit.css);
+
+.button {
+    display: flex;
+  }
+
+  .button:hover {
+    opacity: .8;
+  }

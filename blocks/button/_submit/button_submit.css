@@ -1,0 +1,37 @@
+.button_submit {
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;  
+    box-sizing: border-box;
+    color: white;
+    width: 358px;
+    height: 50px;
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-left: 34px;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .button_submit {
+        width: 325px;
+        height: 40px;
+        top: 155px;
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .button_submit {
+        width: 190px;
+        height: 40px;
+        top: 155px;
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+  }

@@ -1,0 +1,28 @@
+@import url(./__container/photo-grid__container.css);
+@import url(./__item/photo-grid__item.css);
+@import url(./__content/photo-grid__content.css);
+@import url(./__heart/photo-grid__heart.css);
+@import url(./__title/photo-grid__title.css);
+@import url(./__pic/photo-grid__pic.css);
+
+.photo-grid {
+        padding-top: 46px;
+        padding-bottom: 0;
+        max-width: 882px;
+        margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid {
+    padding-top: 36px;
+    padding-right: 19px;
+    padding-left: 19px;
+  }
+}
