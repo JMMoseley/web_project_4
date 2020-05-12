@@ -5,17 +5,12 @@
 @import url(./__about/popup__about.css);
 @import url(./__about-field/popup__about-field.css);
 @import url(./__handler/popup__handler.css);
-@import url(./_opened/popup_opened.css);
+@import url(./_closed/popup_closed.css);
 
 .popup {
     position: fixed;
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    top: 0;
-    left: 0;
-    visibility: hidden;
-    opacity: 0;
     transition: visibility 0.3s, opacity 0.3s linear;
-    z-index: 1;
   }
