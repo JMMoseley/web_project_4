@@ -14,16 +14,6 @@
     padding: 0;
 }
 
-@media screen and (max-width: 768px) {
-    .button_submit {
-        width: 325px;
-        height: 40px;
-        top: 155px;
-        margin-left: 20px;
-        font-size: 14px;
-        line-height: 18px;
-    }
-}
 
 @media screen and (max-width: 425px) {
     .button_submit {

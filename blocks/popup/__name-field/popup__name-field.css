@@ -8,19 +8,10 @@
     padding-bottom: 13px;
 }
 
-
-@media screen and (max-width: 768px) {
-    .popup__name-field {
-        width: 325px;
-        margin: 24px 0 0 24px;
-        padding-bottom: 10px;
-    }
-}
-
 @media screen and (max-width: 425px) {
     .popup__name-field {
         width: 190px;
-        margin: 24px 0 0 24px;
+        margin: 44px 0 0 24px;
         padding-bottom: 10px;
     }
 }

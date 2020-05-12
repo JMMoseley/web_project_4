@@ -1,11 +1,8 @@
-.popup__form {
-  display: flex;
-  flex-direction: column;
-}
-/*.popup__form {
+.popup__container {
   position: fixed;
   flex-direction: column;
   width: 430px;
+  height: 330px;
   border: none;
   background-color:  #FFFFFF;
   box-shadow: 0 0 25px rgba(0, 0, 0, .15);
@@ -14,17 +11,13 @@
   left: 40px;
   right: 40px;
   margin: auto;
-}
-
-@media screen and (max-width: 768px) {
-  .popup__form {
-    width: 380px;
-  }
+  border: 1px solid red;
 }
 
 @media screen and (max-width: 425px) {
-  .popup__form {
+  .popup__container {
     width: 235px;
+    height: 280px;
     top: 155px;
   }
 }
