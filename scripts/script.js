@@ -1,17 +1,17 @@
-let content = document.querySelector('.content');
-let formElement = document.querySelector('.popup');
-let closeButton = document.querySelector('.button_close');
-let editButton = content.querySelector('.button_edit');
-let saveButton = content.querySelector('.button_submit');
-let nameInput = document.querySelector('.popup__name-field');
-let occupationInput = document.querySelector('.popup__about-field');
-let profileName = content.querySelector('.profile__name');
-let profileOccupation = content.querySelector('.profile__occupation');
+const content = document.querySelector('.content');
+const formElement = document.querySelector('.popup');
+const closeButton = document.querySelector('.button_close');
+const editButton = content.querySelector('.button_edit');
+const saveButton = content.querySelector('.button_submit');
+const nameInput = document.querySelector('.popup__name-field');
+const occupationInput = document.querySelector('.popup__about-field');
+const profileName = content.querySelector('.profile__name');
+const profileOccupation = content.querySelector('.profile__occupation');
 let newName;
 let newOccupation;
 
 function popupVisible () {
-  formElement.classList.toggle('popup_opened');
+  formElement.classList.toggle('popup_closed');
 }
 
 function formSubmitHandler (evt) {
