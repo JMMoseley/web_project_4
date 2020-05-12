@@ -31,7 +31,7 @@
     <section class="photo-grid">
         <ul class="photo-grid__container">
             <li class="photo-grid__item">
-                <img class="photo-grid__pic" src="./images/yosemite-valley.jpg" alt="Yosemite Valley">
+                <!--<img class="photo-grid__pic" src="./images/yosemite-valley.jpg" alt="Yosemite Valley">-->
                 <div class="photo-grid__content">
                     <h3 class="photo-grid__title">Yosemite Valley</h3>
                     <button class="button button_like"></button>
@@ -75,19 +75,21 @@
         </ul>
     </section>
     </main>
+    <!-- footer block -->
     <footer class="footer">
         <div class="footer__copyright">&#169; 2020. Johanna Moseley</div>
     </footer>
+    <!-- popup block -->
     <section class="popup popup_opened">
         <div class="popup__container">
             <button class="button button_close"></button>
             <form class="popup__form">
                 <h2 class="popup__title">Edit Profile</h2>
                 <fieldset class="popup__name">
-                    <input class="popup__name-field" type="text" name="name" value="Jacques Cousteau" placeholder="Name" required>
+                    <input class="popup__name-field" type="text" name="name" value="Jacques Cousteau" placeholder="Name" maxlength="40" required>
                 </fieldset>
                 <fieldset class="popup__about">
-                    <input class="popup__about-field" type="text" name="about" value="Explorer" placeholder="About me" required>
+                    <input class="popup__about-field" type="text" name="about" value="Explorer" placeholder="About me" maxlength="40" required>
                 </fieldset>
                 <fieldset class="popup__handler">
                     <input type="submit" class="button button_submit" value="Save">
