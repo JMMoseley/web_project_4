@@ -1,7 +1,7 @@
 @import url(./__container/photo-grid__container.css);
 @import url(./__item/photo-grid__item.css);
 @import url(./__content/photo-grid__content.css);
-@import url(./__heart/photo-grid__heart.css);
+@import url(../button/_like/button_like.css);
 @import url(./__title/photo-grid__title.css);
 @import url(./__pic/photo-grid__pic.css);
 
