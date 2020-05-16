@@ -1,5 +1,8 @@
-![](/images/logo.png) 
-## by Yandex Bootcamp Project
+<p align="center">
+  <img src="/images/logo.png">
+</p>
+
+## Practicum by Yandex Bootcamp Project
 
 ## Sprint 5 Project: Around the U.S.
 
