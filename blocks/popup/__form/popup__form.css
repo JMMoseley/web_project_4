@@ -1,5 +1,6 @@
 .popup__form {
   position: fixed;
+  display: flex;
   flex-direction: column;
   width: 430px;
   height: 330px;
