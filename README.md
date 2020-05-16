@@ -1,4 +1,5 @@
-![](/images/logo.png) by Yandex Bootcamp Project
+![](/images/logo.png) 
+## by Yandex Bootcamp Project
 
 ## Sprint 5 Project: Around the U.S.
 
