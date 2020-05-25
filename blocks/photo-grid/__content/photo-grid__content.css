@@ -1,5 +1,7 @@
 .photo-grid__content {
     display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
+    flex-wrap: wrap;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.1);
 }
