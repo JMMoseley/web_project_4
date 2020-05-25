@@ -29,49 +29,7 @@
     </section>
     <!-- elements block -->
     <section class="photo-grid">
-        <ul class="photo-grid__container">
-            <li class="photo-grid__item">
-                <div class="photo-grid__pic" title="Yosemite Valley" style="background-image: url(./images/yosemite-valley.jpg);"></div>
-                <div class="photo-grid__content">
-                    <h3 class="photo-grid__title">Yosemite Valley</h3>
-                    <button class="button button_like"></button>
-                </div>
-            </li>
-            <li class="photo-grid__item">
-                <div class="photo-grid__pic" title="Lake Louise" style="background-image: url(./images/lake-louise.jpg);"></div>
-                <div class="photo-grid__content">
-                    <h3 class="photo-grid__title">Lake Louise</h3>
-                    <button class="button button_like"></button>
-                </div>
-            </li>
-            <li class="photo-grid__item">
-                <div class="photo-grid__pic" title="Bald Mountains" style="background-image: url(./images/bald-mountains.jpg);"></div>
-                <div class="photo-grid__content">
-                    <h3 class="photo-grid__title">Bald Mountains</h3>
-                    <button class="button button_like"></button>
-                </div>
-            </li>
-            <li class="photo-grid__item">
-                <div class="photo-grid__pic" title="Latemar" style="background-image: url(./images/latemar.jpg);"></div>
-                <div class="photo-grid__content">
-                    <h3 class="photo-grid__title">Latemar</h3>
-                    <button class="button button_like"></button>
-                </div>
-            </li>
-            <li class="photo-grid__item">
-                <div class="photo-grid__pic" title="Vanois National Park" style="background-image: url(./images/vanos-national-park.jpg);"></div>
-                <div class="photo-grid__content">
-                    <h3 class="photo-grid__title">Vanois National Park</h3>
-                    <button class="button button_like"></button>
-                </div>
-            </li>
-            <li class="photo-grid__item">
-                <div class="photo-grid__pic" title="Lago di Braies" style="background-image: url(./images/lago-di-braies.jpg);"></div>
-                <div class="photo-grid__content">
-                    <h3 class="photo-grid__title">Lago di Braies</h3>
-                    <button class="button button_like"></button>
-                </div>
-            </li>
+        <ul class="photo-grid__list">
         </ul>
     </section>
     </main>
@@ -79,22 +37,53 @@
     <footer class="footer">
         <div class="footer__copyright">&#169; 2020 Johanna Moseley</div>
     </footer>
-    <!-- popup block -->
-    <section class="popup popup_closed">
+    <!-- popup block to edit profile -->
+    <section class="popup popup_visible">
         <form class="popup__form" action="#">
             <button class="button button_close" type="reset"></button>
             <h2 class="popup__title">Edit Profile</h2>
-            <fieldset class="popup__name">
-                <input class="popup__name-field" type="text" name="name" value="Jacques Cousteau" placeholder="Name" maxlength="40" required>
-            </fieldset>
-            <fieldset class="popup__about">
-                <input class="popup__about-field" type="text" name="about" value="Explorer" placeholder="About me" maxlength="40" required>
+            <fieldset class="popup__fields">
+                <input class="popup__input popup__item popup__name" type="text" name="name" value="Jacques Cousteau" placeholder="Name" minlength="1" maxlength="40" required>
+                <input class="popup__input popup__item popup__occupation" type="text" name="about" value="Explorer" placeholder="About me" minlength="1" maxlength="40" required>
             </fieldset>
             <fieldset class="popup__handler">
                 <input type="submit" class="button button_submit" value="Save">
             </fieldset>
         </form>
     </section>
-<script src="./scripts/script.js"></script>   
+    <!-- popup block to edit place -->
+    <!--<section class="popup popup_visible">
+        <form class="popup__form" action="#">
+            <button class="button button_close" type="reset"></button>
+            <h2 class="popup__title">New Place</h2>
+            <fieldset class="popup__fields">
+                <input class="popup__input popup__item popup__place" type="text" name="title"  placeholder="Title" minlength="1" maxlength="30" required>
+                <input class="popup__input popup__item popup__url" type="url" name="url" placeholder="Image URL">
+            </fieldset>
+            <fieldset class="popup__handler">
+                <input type="submit" class="button button_submit" value="Save">
+            </fieldset>
+        </form>
+    </section>
+    <!-- popup for images -->
+    <!--<div class="popup popup_pic">
+        <div class="popup__container popup__container_pic">
+            <button class="button button_close" type="reset"></button>
+            <img src="" alt="" class="popup__pic">
+            <p class="popup__title"></p>
+        </div>
+    </div>
+    <!-- card template for photo-grid -->
+    <template class="card-template">
+        <li class="photo-grid__item">
+            <div class="photo-grid__pic"></div>
+            <div class="photo-grid__content">
+                <button class="button button_trash"></button>
+                <h3 class="photo-grid__title"></h3>
+                <button class="button button_like"></button>
+            </div>
+        </li>
+    </template>
+<script src="./scripts/script.js" defer></script>   
 </body>
 </html>
