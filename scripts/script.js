@@ -1,4 +1,3 @@
-// declarations
 // photo-grid images/cards
 const initialCards = [
   {
@@ -42,6 +41,7 @@ const newOccupation = document.querySelector('.profile__occupation');
 //card template
 const cardTemplate = document.querySelector('.card-template').content.querySelector('.photo-grid__item');
 const listWrapper = document.querySelector('.photo-grid__list');
+const photoContent = document.querySelector('.photo-grid__content');
 
 
 
@@ -71,22 +71,18 @@ function createCard(card) {
   cardImage.style.backgroundImage = `url('${card.link}')`;
 
   likeButton.addEventListener('click', (evt) => {
-    evt.target.classList.toggle('button_like_active');
+    evt.target.classList.toggle('button_like-active');
   })
 
   deleteButton.addEventListener('click', () => {
-    const listItem = deleteButton.closest('.photo-grid__item');
-    listItem.remove();
+    const listPhotoCard = deleteButton.closest('.photo-grid__item');
+    listPhotoCard.remove();
   })
 
   return cardElement;
-
 }
+
 
 initialCards.forEach((card) => {
   listWrapper.prepend(createCard(card));
 })
-
-initialCards.forEach((card) => {
-  renderCard(card);
-});
