@@ -2,7 +2,7 @@
   <img src="/images/logo.png">
 </p>
 
-## Practicum by Yandex Bootcamp Project
+## Practicum by Yandex Project
 
 ## Sprint 5 Project: Around the U.S.
 
